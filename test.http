@@ -1,0 +1,35 @@
+@enpd = http://localhost:3001
+
+GET {{enpd}}/videos
+
+###
+GET {{enpd}}/videos/6282fd7b7028f1dc68252b4b
+
+###
+GET {{enpd}}/title/un videos
+
+###
+GET {{enpd}}/url/urlx2
+
+###
+POST {{enpd}}/videos
+Content-Type: application/json
+
+{
+    "title": "nuevo titulo3",
+    "description": "kcsdc3",
+    "url":"gsdcsx3"
+}
+
+###
+DELETE {{enpd}}/videos/6281d0d00b0d9e7aed3832bf
+
+###
+PUT {{enpd}}/videos/6282fd7b7028f1dc68252b4b
+Content-Type: application/json
+
+{
+    "url": "urlx2",
+    "title": "tituloxx2",
+    "description":"description2"
+}
