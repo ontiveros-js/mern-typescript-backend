@@ -11,11 +11,5 @@ router.route("/videos/:id")
     .delete(control.deleteVideo)
     .put(control.updateVideo)
 
-router.route("/title/:title")
-    .get(control.getVideoTitle)
-
-router.route("/url/:url")
-    .get(control.getVideoUrl)
-
 
 export default router
